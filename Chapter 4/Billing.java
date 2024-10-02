@@ -25,7 +25,7 @@ class Billing {
         Billing billing = new Billing();
 
         billing.computeBill(23.2);
-        billing.computeBill(23.3, 2);
+        billing.computeBill(23.2, 3);
         billing.computeBill(23.2, 3, 5);
     }
 }
