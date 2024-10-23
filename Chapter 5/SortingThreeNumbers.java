@@ -11,26 +11,26 @@ public class SortingThreeNumbers {
         int num3 = scanner.nextInt();
 
         if (num1 <= num2 && num2 <= num3) {
-            System.out.println("\nNumbers are already in ascending order: " + num1 + " " + num2 + " " + num3);
+            System.out.println("\nNumbers are already in Ascending Order: " + num1 + " " + num2 + " " + num3);
         } else {
 
             if (num1 >= num2 && num1 >= num3) {
                 if (num2 >= num3) {
-                    System.out.println("\nNumbers rearranged in descending order: " + num1 + " " + num2 + " " + num3);
+                    System.out.println("\nRearranged in Descending Order: " + num1 + " " + num2 + " " + num3);
                 } else {
-                    System.out.println("\nNumbers rearranged in descending order: " + num1 + " " + num3 + " " + num2);
+                    System.out.println("\nRearranged in Descending Order: " + num1 + " " + num3 + " " + num2);
                 }
             } else if (num2 >= num1 && num2 >= num3) {
                 if (num1 >= num3) {
-                    System.out.println("\nNumbers rearranged in descending order: " + num2 + " " + num1 + " " + num3);
+                    System.out.println("\nRearranged in Descending Order: " + num2 + " " + num1 + " " + num3);
                 } else {
-                    System.out.println("\nNumbers rearranged in descending order: " + num2 + " " + num3 + " " + num1);
+                    System.out.println("\nRearranged in Descending Order: " + num2 + " " + num3 + " " + num1);
                 }
             } else {
                 if (num1 >= num2) {
-                    System.out.println("\nNumbers rearranged in descending order: " + num3 + " " + num1 + " " + num2);
+                    System.out.println("\nRearranged in Descending Order: " + num3 + " " + num1 + " " + num2);
                 } else {
-                    System.out.println("\nNumbers rearranged in descending order: " + num3 + " " + num2 + " " + num1);
+                    System.out.println("\nRearranged in Descending Order: " + num3 + " " + num2 + " " + num1);
                 }
             }
         }
